@@ -62,7 +62,7 @@ dct = {
     },
     3: {
         "image": "images/Thor.jpg",
-        "text": "it a great Barnes is complex, brave, and emotionally strong. Thoug 𝒶𝒾𝓃 𝒜𝓂𝑒𝓇𝒾𝒸𝒶 ✨ 𝒾𝓈 𝒷𝓇𝒶𝓋𝑒 🛡️, 𝒹𝒾𝓈𝒸𝒾𝓅𝓁𝒾𝓃𝑒𝒹 ⚔️, 𝒶𝓃𝒹 𝒹𝑒𝑒𝓅𝓁𝓎 𝓁𝑜𝓎𝒶𝓁 🤝. 𝒽𝑒 𝒷𝑒𝓁𝒾𝑒𝓋𝑒𝓈 𝒾𝓃 𝒿𝓊𝓈𝓉𝒾𝒸𝑒 ⚖️, 𝒻𝓇𝑒𝑒𝒹𝑜𝓂 🕊️, 𝒶𝓃𝒹"
+        "text": "The 3rd feels like thunder wrapped in confidence. Strong, fearless, and impossible to ignore. Like Thor, there’s power in your presence, but also warmth beneath it. You don’t just enter a room — you command it effortlessly. And honestly, that kind of energy is rare and unforgettable.⚡❤️✨"
     },
         4: {
         "image": "images/Ancient one.jpg",
@@ -219,6 +219,7 @@ if st.button("Reveal My Character 🚀", type="primary"):
             st.error(f"⚠️ Oops! The image '{image_path}' was not found.")
     else:
         st.warning(f"No character has been assigned to date {birth_date} yet!")
+
 
 
 

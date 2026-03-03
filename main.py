@@ -73,7 +73,7 @@ dct = {
         "text": "Ant-Man is clever, playful, and surprisingly brave. Behind his humor lies a sharp mind and a caring heart. He may joke in tough moments, but when it matters, he stands fearless. His charm feels natural and warm. He proves that even the smallest hero can carry the biggest impact."
     },
     6: {
-        "image": "images/Black panther.jpg",
+        "image": "images/black panther.jpg",
         "text": "Black Panther is royal, disciplined, and powerfully composed. His confidence is quiet but undeniable. He protects his people with strength and intelligence. Every move he makes carries purpose. Beneath his warrior spirit lies compassion and loyalty. He leads not with noise, but with presence and unwavering responsibility."
     },
     2: {
@@ -219,6 +219,7 @@ if st.button("Reveal My Character 🚀", type="primary"):
             st.error(f"⚠️ Oops! The image '{image_path}' was not found.")
     else:
         st.warning(f"No character has been assigned to date {birth_date} yet!")
+
 
 
 

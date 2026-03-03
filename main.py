@@ -61,7 +61,7 @@ dct = {
         "text": "Bucky Barnes is complex, brave, and emotionally strong. Though he struggles with his past as the Winter Soldier, he tries hard to make things right. He is loyal to his friends, especially Captain America, and shows quiet courage. His personality reflects resilience, guilt, redemption, and a deep desire for peace and forgiveness."
     },
     3: {
-        "image": "images/thor.jpg",
+        "image": "images/Thor.jpg",
         "text": "it a great Barnes is complex, brave, and emotionally strong. Thoug 𝒶𝒾𝓃 𝒜𝓂𝑒𝓇𝒾𝒸𝒶 ✨ 𝒾𝓈 𝒷𝓇𝒶𝓋𝑒 🛡️, 𝒹𝒾𝓈𝒸𝒾𝓅𝓁𝒾𝓃𝑒𝒹 ⚔️, 𝒶𝓃𝒹 𝒹𝑒𝑒𝓅𝓁𝓎 𝓁𝑜𝓎𝒶𝓁 🤝. 𝒽𝑒 𝒷𝑒𝓁𝒾𝑒𝓋𝑒𝓈 𝒾𝓃 𝒿𝓊𝓈𝓉𝒾𝒸𝑒 ⚖️, 𝒻𝓇𝑒𝑒𝒹𝑜𝓂 🕊️, 𝒶𝓃𝒹"
     },
         4: {
@@ -73,7 +73,7 @@ dct = {
         "text": "Ant-Man is clever, playful, and surprisingly brave. Behind his humor lies a sharp mind and a caring heart. He may joke in tough moments, but when it matters, he stands fearless. His charm feels natural and warm. He proves that even the smallest hero can carry the biggest impact."
     },
     6: {
-        "image": "images/black panther.jpg",
+        "image": "images/Black panther.jpg",
         "text": "Black Panther is royal, disciplined, and powerfully composed. His confidence is quiet but undeniable. He protects his people with strength and intelligence. Every move he makes carries purpose. Beneath his warrior spirit lies compassion and loyalty. He leads not with noise, but with presence and unwavering responsibility."
     },
     2: {
@@ -149,15 +149,15 @@ dct = {
         "text": "Thanos is calm, calculated, and terrifyingly determined. His belief in balance drives his ruthless decisions. He speaks with quiet certainty and unwavering focus. Powerful and composed, he follows his vision without hesitation, making him both commanding and intimidating."
     },
     25: {
-        "image": "images/vision.jpg",
+        "image": "images/Vision.jpg",
         "text": "Vision is thoughtful, intelligent, and emotionally curious. Though synthetic, his humanity feels genuine. He values logic and love equally. Calm and philosophical, he seeks understanding in conflict. His quiet wisdom and gentle nature make him uniquely compelling."
     },
     14: {
-        "image": "images/wanda.jpg",
+        "image": "images/Wanda.jpg",
         "text": "On the 14th, it feels like the universe created its own Wanda…🌸 you. Strong, beautiful, and quietly magical. You don’t need chaos magic to change the atmosphere — your smile already does that effortlessly. Being around you feels different, in the best way. There’s something about your presence that turns ordinary moments into memories worth holding onto.💫❤️🌙"
     },
     27: {
-        "image": "images/wolverine.jpg",
+        "image": "images/Wolverine.jpg",
         "text": "Wolverine is rugged, fearless, and emotionally guarded. His toughness hides silent pain and loyalty. He protects fiercely and loves deeply, though rarely shows it. Strong, intense, and instinctive, he walks alone but fights for those he respects."
     },
     28: {
@@ -219,6 +219,7 @@ if st.button("Reveal My Character 🚀", type="primary"):
             st.error(f"⚠️ Oops! The image '{image_path}' was not found.")
     else:
         st.warning(f"No character has been assigned to date {birth_date} yet!")
+
 
 
 
